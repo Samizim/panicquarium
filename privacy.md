@@ -3,8 +3,6 @@ title: Panicquarium! Privacy Policy
 permalink: /privacy/
 ---
 
-# Panicquarium! Privacy Policy
-
 *Last updated: 11 November 2026. Developer: Samizim (StudioZim).*
 
 Panicquarium! is a casual aquarium game for teens and adults (13+). We don't run any servers and we don't collect your personal information ourselves. On phones, the free version shows ads through Google AdMob, and that's the one place data leaves your device. This page explains what goes where.

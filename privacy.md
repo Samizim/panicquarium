@@ -3,7 +3,7 @@ title: Panicquarium! Privacy Policy
 permalink: /privacy/
 ---
 
-*Last updated: 11 November 2026. Developer: Samizim (StudioZim).*
+*Last updated: 11 November 2026. Developer: Studiozim ([studiozim.com.br](https://studiozim.com.br)).*
 
 Panicquarium! is a casual aquarium game for teens and adults (13+). We don't run any servers and we don't collect your personal information ourselves. On phones, the free version shows ads through Google AdMob, and that's the one place data leaves your device. This page explains what goes where.
 
@@ -57,8 +57,8 @@ Panicquarium! is not made for children under 13, and we don't knowingly collect 
 
 ## Your rights
 
-Depending on where you live (for example under the GDPR in Europe or the LGPD in Brazil), you may have the right to access or delete your data. We keep no data about you ourselves. For the ad data, use the choices above or [Google's privacy tools](https://myaccount.google.com/data-and-privacy). For anything else, write to us.
+Depending on where you live (for example under the GDPR in Europe or the LGPD in Brazil), you may have the right to access or delete your data. We keep no data about you ourselves. For the ad data, use the choices above or [Google's privacy tools](https://myaccount.google.com/data-and-privacy). For anything else, write to [suporte@studiozim.com.br](mailto:suporte@studiozim.com.br).
 
 ## Changes and contact
 
-If this policy changes, the new version will be posted here with a new date. Questions: [open a message here](https://github.com/Samizim/panicquarium/issues).
+If this policy changes, the new version will be posted here with a new date. Questions: [suporte@studiozim.com.br](mailto:suporte@studiozim.com.br).

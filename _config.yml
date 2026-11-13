@@ -1,2 +1,7 @@
 title: Panicquarium!
-theme: minima
+markdown: kramdown
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

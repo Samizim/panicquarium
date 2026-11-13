@@ -2,7 +2,7 @@
 title: Panicquarium! Privacy Policy
 permalink: /privacy/
 ---
-n# Privacy Policy
+# Privacy Policy
 
 *Last updated: 12 November 2026. Developer: Studiozim ([studiozim.com.br](https://studiozim.com.br)).*
 

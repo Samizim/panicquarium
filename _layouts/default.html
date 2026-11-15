@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ page.lang | default: 'en' }}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -33,9 +33,14 @@ a{color:var(--sea-2);font-weight:600}
 code{background:var(--bg);padding:1px 6px;border-radius:6px;font-size:.9em}
 footer{text-align:center;color:var(--muted);font-size:15px;padding:0 16px 40px}
 footer a{color:inherit}
+.ver{margin:-4px 0 6px;color:var(--muted);font-size:15px}
+.langs{text-align:right;margin:0;font-size:15px}
+h2.older{color:var(--muted);font-size:20px;margin-top:40px;border-top:1px solid var(--line);padding-top:24px}
+details{margin:2px 0 10px}summary{cursor:pointer;color:var(--sea-2);font-weight:600}
+@media (prefers-color-scheme:dark){summary{color:#6cc8f0}}
 </style>
 </head>
-<body>
+<body id="top">
 <header>
   <div class="bubbles" aria-hidden="true"><span style="left:8%;width:14px;height:14px;animation-duration:9s"></span><span style="left:22%;width:8px;height:8px;animation-duration:7s;animation-delay:2s"></span><span style="left:78%;width:12px;height:12px;animation-duration:10s;animation-delay:1s"></span><span style="left:90%;width:7px;height:7px;animation-duration:8s;animation-delay:3s"></span></div>
   <a href="https://studiozim.com.br/#panicquarium"><img src="/assets/logo.png" alt="Panicquarium!"></a>
@@ -43,6 +48,6 @@ footer a{color:inherit}
 <main><article class="card">
 {{ content }}
 </article></main>
-<footer>Panicquarium! is made by <a href="https://studiozim.com.br">Studiozim</a> · <a href="mailto:suporte@studiozim.com.br">suporte@studiozim.com.br</a></footer>
+<footer>Panicquarium! is made by <a href="https://studiozim.com.br">Studiozim</a> · <a href="/news/">What's new</a> · <a href="/novidades/">Novidades</a> · <a href="/privacy/">Privacy</a> · <a href="mailto:suporte@studiozim.com.br">suporte@studiozim.com.br</a></footer>
 </body>
 </html>

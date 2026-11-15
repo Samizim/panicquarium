@@ -5,4 +5,4 @@ title: Panicquarium!
 
 # Panicquarium!
 
-A goofy aquarium game by Studiozim. [See the game on studiozim.com.br](https://studiozim.com.br/#panicquarium) · [Privacy Policy](privacy/)
+A goofy aquarium game by Studiozim. [See the game on studiozim.com.br](https://studiozim.com.br/#panicquarium) · [What's new](news/) · [Novidades](novidades/) · [Privacy Policy](privacy/)

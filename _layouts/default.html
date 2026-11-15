@@ -33,6 +33,25 @@ a{color:var(--sea-2);font-weight:600}
 code{background:var(--bg);padding:1px 6px;border-radius:6px;font-size:.9em}
 footer{text-align:center;color:var(--muted);font-size:15px;padding:0 16px 40px}
 footer a{color:inherit}
+.lead{font-size:20px;margin:4px 0 14px}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}
+.btn{display:inline-block;padding:10px 18px;border-radius:999px;background:var(--orange);color:#fff;font-weight:700;text-decoration:none;font-size:16px}
+.btn.soon{background:var(--line);color:var(--muted)}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;margin:18px 0}
+.gallery img{width:100%;height:auto;border-radius:14px;border:1px solid var(--line)}
+.links{margin-top:26px;text-align:center}
+main.wide{max-width:1240px}
+main.wide .card{padding:36px clamp(18px,4vw,56px)}
+main.wide h1{font-size:clamp(30px,4.4vw,52px)}
+main.wide .lead{font-size:clamp(18px,1.8vw,24px)}
+main.wide .gallery{grid-template-columns:repeat(2,1fr);gap:14px}
+@media (max-width:640px){main.wide .gallery{grid-template-columns:1fr}}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.cols>div{background:var(--bg);border:1px solid var(--line);border-radius:18px;padding:16px 20px}
+.cols h3{font-family:"Lilita One",sans-serif;font-weight:400;font-size:22px;margin:0 0 6px;color:var(--sea-2)}
+@media (prefers-color-scheme:dark){.cols h3{color:var(--sand)}}
+.cols p{margin:0}
+
 .ver{margin:-4px 0 6px;color:var(--muted);font-size:15px}
 .langs{text-align:right;margin:0;font-size:15px}
 h2.older{color:var(--muted);font-size:20px;margin-top:40px;border-top:1px solid var(--line);padding-top:24px}
@@ -43,9 +62,9 @@ details{margin:2px 0 10px}summary{cursor:pointer;color:var(--sea-2);font-weight:
 <body id="top">
 <header>
   <div class="bubbles" aria-hidden="true"><span style="left:8%;width:14px;height:14px;animation-duration:9s"></span><span style="left:22%;width:8px;height:8px;animation-duration:7s;animation-delay:2s"></span><span style="left:78%;width:12px;height:12px;animation-duration:10s;animation-delay:1s"></span><span style="left:90%;width:7px;height:7px;animation-duration:8s;animation-delay:3s"></span></div>
-  <a href="https://studiozim.com.br/#panicquarium"><img src="/assets/logo.png" alt="Panicquarium!"></a>
+  <a href="/"><img src="/assets/logo.png" alt="Panicquarium!"></a>
 </header>
-<main><article class="card">
+<main{% if page.wide %} class="wide"{% endif %}><article class="card">
 {{ content }}
 </article></main>
 <footer>Panicquarium! is made by <a href="https://studiozim.com.br">Studiozim</a> · <a href="/news/">What's new</a> · <a href="/novidades/">Novidades</a> · <a href="/privacy/">Privacy</a> · <a href="mailto:suporte@studiozim.com.br">suporte@studiozim.com.br</a></footer>

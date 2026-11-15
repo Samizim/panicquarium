@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>{{ page.title }}</title>
+<meta name="description" content="{{ page.description }}">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="{{ page.description }}">
+<meta property="og:image" content="https://panicquarium.com{{ page.og_image }}">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://panicquarium.com/">
+<link rel="alternate" hreflang="pt-BR" href="https://panicquarium.com/pt/">
+<link rel="icon" href="/assets/logo.png">
+<meta name="theme-color" content="#0b3d5c">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700;800&family=Lilita+One&display=swap">
+<link rel="stylesheet" href="/assets/home.css?v=1">
+</head>
+<body>
+{{ content }}
+<script src="/assets/home.js?v=1" defer></script>
+</body>
+</html>

@@ -37,7 +37,7 @@ The Steam (PC) version has no ads.
 
 To see which parts of the game people enjoy and whether players come back, the phone version uses **Google Analytics for Firebase**. It collects:
 
-- **app activity:** when the game is opened, levels started and finished (won or lost, and how long they took), Splash Trips started and finished, and My Fishbowl visits;
+- **app activity:** when the game is opened, levels started and finished (won or lost, and how long they took), Deep Dives started and finished, and My Fishbowl visits;
 - **an app instance ID** (a random ID for this install) and, where you allow it, your device's **advertising ID**, so we can see which ads or links brought players in;
 - **device information** (model, operating system, language) and the rough location your IP address gives (country or city, never your exact location).
 

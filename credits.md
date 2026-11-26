@@ -6,6 +6,26 @@ permalink: /credits/
 
 Panicquarium! é um jogo do [Studio Zim](https://studiozim.com.br). Obrigado a todo mundo que testou o jogo e deu ideias!
 
+## Quem testou o jogo
+
+- Karolina (Mo lol)
+- Gabriel (Beleu)
+- Marcelo (M3D)
+- Kelvyn (Kelzin)
+- Filipe (Aroeira)
+- Ramon (Ramonstro)
+- Alan (Arthemius)
+- Leonardo (Nardo)
+- Bianca (Nikinha)
+- Eron (Lonzim de Deus)
+- Leandro (Lê)
+- Thamires (Thams)
+- Klaus (Do Clio)
+- Victoria (Titoria)
+- Keven (KevenKSSP)
+- Lucas (LioAx)
+- Jeffrey (Aeonicx)
+
 ## Fontes e licenças
 
 - Panicquarium Display (baseada em Lilita One), © 2011 Juan Montoreano, SIL Open Font License 1.1
@@ -24,6 +44,26 @@ Textos completos: [SIL Open Font License 1.1](https://openfontlicense.org) e [Ap
 # Credits and licences
 
 Panicquarium! is a game by [Studio Zim](https://studiozim.com.br). Thank you to everyone who tested the game and shared ideas!
+
+## Our testers
+
+- Karolina (Mo lol)
+- Gabriel (Beleu)
+- Marcelo (M3D)
+- Kelvyn (Kelzin)
+- Filipe (Aroeira)
+- Ramon (Ramonstro)
+- Alan (Arthemius)
+- Leonardo (Nardo)
+- Bianca (Nikinha)
+- Eron (Lonzim de Deus)
+- Leandro (Lê)
+- Thamires (Thams)
+- Klaus (Do Clio)
+- Victoria (Titoria)
+- Keven (KevenKSSP)
+- Lucas (LioAx)
+- Jeffrey (Aeonicx)
 
 ## Fonts and licences
 
